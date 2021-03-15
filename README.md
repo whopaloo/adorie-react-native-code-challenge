@@ -20,11 +20,11 @@ Recomendamos utilizar os ícones do Material Design https://material.io/resource
 Você deve utilizar a API do Unsplash - 
 
 ## Mockups
-![Teste Adorie Home](https://loja.adorie.com.br/teste-adorie/teste-adorie-1.png)
+<img src="https://loja.adorie.com.br/teste-adorie/teste-adorie-1.png" width="300">
 
-![Teste Adorie Pesquisa](https://loja.adorie.com.br/teste-adorie/teste-adorie-2.png)
+<img src="https://loja.adorie.com.br/teste-adorie/teste-adorie-2.png" width="300">
 
-![Teste Adorie Ver Imagem](https://loja.adorie.com.br/teste-adorie/teste-adorie-3.png)
+<img src="https://loja.adorie.com.br/teste-adorie/teste-adorie-3.png" width="300">
 
 ## Critérios de Avaliação
 - Conceitos principais de JavaScript
