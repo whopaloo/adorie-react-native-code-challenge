@@ -13,7 +13,36 @@ Nós queremos desenvolver um aplicativo simples, onde possamos de maneira fácil
 - Ao clicar em uma imagem, o app deve navegar para uma próxima tela, onde exibe a imagem e suas informações
 - Ao clicar em voltar a partir de uma imagem, o aplicativo deve voltar exatamente para o estado anterior, com a busca que foi efetuada anteriormente e a posição no scroll
 
-## Mockups e Assets
-![Teste Adorie Home](https://loja.adorie.com.br/teste-adorie/teste-adorie-1.png)
-![Teste Adorie Pesquisa](https://loja.adorie.com.br/teste-adorie/teste-adorie-2.png)
-![Teste Adorie Ver Imagem](https://loja.adorie.com.br/teste-adorie/teste-adorie-3.png)
+## Assets
+Recomendamos utilizar os ícones do Material Design https://material.io/resources/icons/?style=baseline e também utilizar alguma biblioteca. Nós utilizamos extensivamente o React Native Paper https://callstack.github.io/react-native-paper/
+
+## API
+Você deve utilizar a API do Unsplash - 
+
+## Mockups
+![Teste Adorie Home](https://loja.adorie.com.br/teste-adorie/teste-adorie-1.png =300px)
+
+![Teste Adorie Pesquisa](https://loja.adorie.com.br/teste-adorie/teste-adorie-2.png =300px)
+
+![Teste Adorie Ver Imagem](https://loja.adorie.com.br/teste-adorie/teste-adorie-3.png =300px)
+
+## Critérios de Avaliação
+- Conceitos principais de JavaScript
+- Utilização de TypeScript
+- Entendimento e uso de Redux
+- Reutilização/Extensão de Componentes
+- Arquitetura da Aplicação
+- Estratégia para buscar dados e acrescentar mais dados
+- Habilidade para escrever documentação clara
+- Código Limpo
+- Comentários no código
+- **Bônus para quem criar uma UI/UX de boa qualidade**
+
+## Submissão do Desafio
+- Crie seu ambiente em React Native SEM utilizar o Expo, utilizando o react-native-cli: https://github.com/react-native-community/cli
+- Clone este repositório localmente
+- Crie uma branch com o seu nome completo separado por hífens, exemplo: luiz-antonio-moraes. Se a branch já existir, acrescente algum número para torná-la única.
+- Submeta seus commits na sua branch até completar o desafio
+- Após completar o desafio, faça um pull request
+- Certifique-se de documentar tudo o que for possível e colocar instruções claras para executarmos o seu app
+- Envie-nos um e-mail para luiz@adorie.com.br avisando que você completou seu desafio
