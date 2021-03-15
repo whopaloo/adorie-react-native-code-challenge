@@ -14,7 +14,7 @@ Nós queremos desenvolver um aplicativo simples, onde possamos de maneira fácil
 - Ao clicar em voltar a partir de uma imagem, o aplicativo deve voltar exatamente para o estado anterior, com a busca que foi efetuada anteriormente e a posição no scroll
 
 ## Assets
-Recomendamos utilizar os ícones do Material Design https://material.io/resources/icons/?style=baseline e também utilizar alguma biblioteca. Nós utilizamos extensivamente o React Native Paper https://callstack.github.io/react-native-paper/
+Recomendamos utilizar os ícones do Material Design https://material.io/resources/icons/?style=baseline e também utilizar alguma biblioteca para componentes UI, nós utilizamos extensivamente o React Native Paper https://callstack.github.io/react-native-paper/
 
 ## API
 Você deve utilizar a API do Unsplash - 
