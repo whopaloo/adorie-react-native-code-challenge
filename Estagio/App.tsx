@@ -1,13 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
-
 import 'react-native-gesture-handler';
 import React from 'react';
 import {ThemeProvider} from 'styled-components/native';
@@ -23,7 +13,13 @@ const App = () => {
     <ThemeProvider theme={myTheme}>
       <NavigationContainer>
         <AppStack.Navigator>
-          <AppStack.Screen name="Home" component={Home} />
+          <AppStack.Screen
+            options={{
+              header: () => null,
+            }}
+            name="Home"
+            component={Home}
+          />
         </AppStack.Navigator>
       </NavigationContainer>
     </ThemeProvider>
