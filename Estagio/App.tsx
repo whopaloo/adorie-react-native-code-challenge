@@ -9,13 +9,17 @@
  */
 
 import React from 'react';
+import {ThemeProvider} from 'styled-components/native';
 import {Text, View} from 'react-native';
+import {myTheme} from './my-theme';
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello</Text>
-    </View>
+    <ThemeProvider theme={myTheme}>
+      <View>
+        <Text>Hello</Text>
+      </View>
+    </ThemeProvider>
   );
 };
 
