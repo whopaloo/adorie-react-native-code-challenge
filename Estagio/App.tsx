@@ -4,7 +4,8 @@ import {ThemeProvider} from 'styled-components/native';
 import {myTheme} from './my-theme';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import {Home} from './screens/home.screen';
+
+import {Home} from './src/screens/home.screen';
 
 const AppStack = createStackNavigator();
 

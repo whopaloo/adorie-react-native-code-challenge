@@ -1,6 +1,10 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, SafeAreaView} from 'react-native';
 import styled from 'styled-components/native';
+
+const SafeArea = styled(SafeAreaView)`
+  flex: 1;
+`;
 
 const Container = styled.View`
   flex: 1;
@@ -11,8 +15,10 @@ const Container = styled.View`
 
 export const Home = () => {
   return (
-    <Container>
-      <Text>Hello</Text>
-    </Container>
+    <SafeArea>
+      <Container>
+        <Text>Hello</Text>
+      </Container>
+    </SafeArea>
   );
 };
