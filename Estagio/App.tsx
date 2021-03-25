@@ -4,24 +4,19 @@ import {ThemeProvider} from 'styled-components/native';
 import {myTheme} from './my-theme';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-
 import {Home} from './src/screens/home.screen';
+import {Photos} from './src/screens/photos.screen';
 
-const AppStack = createStackNavigator();
+const Stack = createStackNavigator();
 
 const App = () => {
   return (
     <ThemeProvider theme={myTheme}>
       <NavigationContainer>
-        <AppStack.Navigator>
-          <AppStack.Screen
-            options={{
-              header: () => null,
-            }}
-            name="Home"
-            component={Home}
-          />
-        </AppStack.Navigator>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Photos" component={Photos} />
+        </Stack.Navigator>
       </NavigationContainer>
     </ThemeProvider>
   );
