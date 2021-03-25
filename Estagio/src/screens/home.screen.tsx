@@ -1,9 +1,11 @@
 import React from 'react';
-import {Text, SafeAreaView} from 'react-native';
+import {SafeAreaView, StatusBar} from 'react-native';
 import styled from 'styled-components/native';
+import Search from '../components/search.component';
 
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
+  ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
 `;
 
 const Container = styled.View`
@@ -13,11 +15,17 @@ const Container = styled.View`
   justify-content: center;
 `;
 
-export const Home = () => {
+interface Props {
+  navigation: {
+    navigate: (text: string) => string;
+  };
+}
+
+export const Home: React.FC<Props> = ({navigation}) => {
   return (
     <SafeArea>
       <Container>
-        <Text>Hello</Text>
+        <Search navigation={navigation} />
       </Container>
     </SafeArea>
   );
